@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Sumatera Utara</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<!-- 1-6 NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="#">Wisata Sumut</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="destinasi.html">Destinasi</a></li>
+        <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- 7-11 HERO -->
+<div class="container mt-5">
+  <div class="row align-items-center">
+
+    <div class="col-md-6">
+      <h1 class="fw-bold">Jelajahi Wisata Sumatera Utara</h1>
+      <p class="text-secondary">
+        Temukan keindahan alam, budaya, dan destinasi terbaik.
+      </p>
+
+      <button class="btn btn-primary px-4">Lihat Destinasi</button>
+    </div>
+
+    <div class="col-md-6">
+      <img src="https://source.unsplash.com/600x400/?sumatra,nature"
+           class="img-fluid rounded shadow">
+    </div>
+
+  </div>
+</div>
+
+<!-- 12-19 DESTINASI -->
+<div class="container mt-5">
+
+  <h2 class="text-center mb-4">Destinasi Wisata</h2>
+
+  <div class="row g-3">
+
+    <!-- CARD 1 -->
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="pohon.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Danau Toba</h5>
+          <p class="card-text">Danau vulkanik terbesar di Indonesia.</p>
+          <a href="detail.html" class="btn btn-outline-primary btn-sm">Detail</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="airterjun.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Air Terjun</h5>
+          <p class="card-text">Keindahan alam yang menakjubkan.</p>
+          <a href="detail.html" class="btn btn-outline-primary btn-sm">Detail</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="pantai.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pantai</h5>
+          <p class="card-text">Pantai indah di Sumut.</p>
+          <a href="detail.html" class="btn btn-outline-primary btn-sm">Detail</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="container mt-5">
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Beranda</a></li>
+            <li class="breadcrumb-item active">Paket Wisata</li>
+        </ol>
+    </nav>
+</div>
+
+<!-- PAKET WISATA -->
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">Paket Wisata</h2>
+
+    <table class="table table-striped table-bordered text-center">
+
+        <thead class="table-primary">
+
+            <tr>
+                <th>Paket</th>
+                <th>Harga</th>
+                <th>Status</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Danau Toba</td>
+                <td>Rp350.000</td>
+                <td><span class="badge bg-success">Penuh</span></td>
+            </tr>
+
+            <tr>
+                <td>Air Terjun</td>
+                <td>Rp300.000</td>
+                <td><span class="badge bg-warning text-dark">Promo</span></td>
+            </tr>
+
+            <tr>
+                <td>Pantai</td>
+                <td>Rp250.000</td>
+                <td><span class="badge bg-danger">Tersedia</span></td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<!-- FAQ -->
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">FAQ</h2>
+
+    <div class="accordion" id="faq">
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#item1"
+                    style="background-color: cadetblue;">
+
+                    Bagaimana cara memesan?
+
+                </button>
+
+            </h2>
+
+            <div id="item1"
+                class="accordion-collapse collapse show">
+
+                <div class="accordion-body">
+                    Isi formulir pemesanan kemudian pilih paket wisata.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#item2"
+                    style="background-color:cadetblue ;">
+
+                    Apakah tersedia pemandu wisata?
+
+                </button>
+
+            </h2>
+
+            <div id="item2"
+                class="accordion-collapse collapse">
+
+                <div class="accordion-body">
+                    Ya, tersedia pemandu wisata profesional yaitu Nauval Ganteng.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FORM PEMESANAN -->
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">Form Pemesanan</h2>
+
+    <form>
+
+        <div class="mb-3">
+
+            <label class="form-label">Nama Lengkap</label>
+
+            <input type="text" class="form-control">
+
+        </div>
+
+        <div class="mb-3">
+
+            <label class="form-label">Email</label>
+
+            <input type="email" class="form-control">
+
+        </div>
+
+        <div class="mb-3">
+
+            <label class="form-label">Pilih Paket</label>
+
+            <select class="form-select">
+
+                <option>Danau Toba</option>
+                <option>Berastagi</option>
+                <option>Sipiso-piso</option>
+
+            </select>
+
+        </div>
+
+        <button type="button"
+        class="btn btn-success"
+        onclick="kirimData()">
+        Kirim
+        </button>
+
+    </form>
+
+</div>
+
+<!-- MODAL -->
+<div class="container text-center mt-5 mb-5">
+
+    <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#infoWisata">
+
+        Lihat Informasi Wisata
+
+    </button>
+
+</div>
+
+<div class="modal fade" id="infoWisata">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">Informasi Wisata</h5>
+
+                <button class="btn-close"
+                    data-bs-dismiss="modal"></button>
+
+            </div>
+
+            <div class="modal-body">
+
+                Terima kasih telah mengunjungi Website Pariwisata Sumatera Utara.
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Tutup
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- 20 FOOTER -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <small>© 2026 Wisata Sumatera Utara | Nauval Hibrizi Akbar</small>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Modal Berhasil -->
+<div class="modal fade" id="successModal" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content border-0 rounded-4">
+
+            <div class="modal-body text-center py-5">
+
+                <div class="checkmark-circle">
+                    <div class="checkmark">✔️</div>
+                </div>
+
+                <h3 class="mt-4 fw-bold text-success">
+                    Berhasil!
+                </h3>
+
+                <p class="text-secondary">
+                    Data pemesanan berhasil dikirim.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+function kirimData(){
+
+    let modal = new bootstrap.Modal(document.getElementById('successModal'));
+
+    modal.show();
+
+    document.querySelector("form").reset();
+
+    setTimeout(function(){
+
+        modal.hide();
+
+    },2000);
+
+}
+
+</script>
+
+</body>
+</html>
